@@ -9,3 +9,5 @@ Given a new tender's features (sector, category, contract size), the model predi
 
 ## Data
 Bahrain Tender Board's monthly Awarded Tenders reports (public PDFs, 10 years of history), enriched where available with fuller tender descriptions from the Tender Board's archive.
+
+https://tenderbidpredictor.streamlit.app/

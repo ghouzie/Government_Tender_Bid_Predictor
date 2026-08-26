@@ -1,0 +1,30 @@
+[
+  {
+    "model": "tier1_same_tenders",
+    "selected_alpha": 3.0,
+    "train_rows": 310,
+    "validation_rows": 125,
+    "test_rows": 96,
+    "mae_bhd": 1095574.5871718368,
+    "median_ae_bhd": 149522.61789260223,
+    "median_ape": 0.8972888030803998,
+    "rmsle": 1.5530987921334052,
+    "median_factor_error": 2.7520489703941995,
+    "within_2x": 0.34375,
+    "within_1_5x": 0.19791666666666666
+  },
+  {
+    "model": "tier2",
+    "selected_alpha": 3.0,
+    "train_rows": 310,
+    "validation_rows": 125,
+    "test_rows": 96,
+    "mae_bhd": 954153.4035737846,
+    "median_ae_bhd": 56538.30498855282,
+    "median_ape": 0.4122407396592197,
+    "rmsle": 0.8535185784802112,
+    "median_factor_error": 1.604534997401533,
+    "within_2x": 0.6458333333333334,
+    "within_1_5x": 0.4583333333333333
+  }
+]

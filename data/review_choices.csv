@@ -1,0 +1,56 @@
+reference,use_match,selected_tender_page,reason
+ALDANA/03/2022,yes,354/2023/BTB,Subject/scope and timing identify the matching reissued Tender Board page.
+BMD-21/0031,yes,358/2022/BTB,Subject/scope and timing identify the matching reissued Tender Board page.
+BQA/DNE/2023/02,yes,688/2023/BTB,Subject/scope and timing identify this page among reused exact PA references.
+EAC/2021/2,yes,400/2021/BTB,Subject/scope and timing identify the matching reissued Tender Board page.
+HFR/01/2024,yes,241/2024/BTB,Subject/scope and timing identify the matching reissued Tender Board page.
+HRD/06/2025,yes,619/2024/BTB,Subject/scope and timing identify the matching reissued Tender Board page.
+IGA/2021/07,yes,291/2022/BTB,Subject/scope and timing identify the matching reissued Tender Board page.
+IGA/2024/11,yes,483/2024/BTB,Subject/scope and timing identify this page among reused exact PA references.
+IGA/2024/65,yes,688/2024/BTB,Subject/scope and timing identify the matching reissued Tender Board page.
+M/19/2021,yes,284/2024/BTB,Subject/scope and timing identify the matching reissued Tender Board page.
+MOW/HRD/01/2023,yes,254/2023/BTB,Subject/scope and timing identify the matching reissued Tender Board page.
+MUN/CM/02/2025,yes,36/2025/BTB,Subject/scope and timing identify this page among reused exact PA references.
+RDS-21/0105,yes,384/2023/BTB,Subject/scope and timing identify this page among reused exact PA references.
+RFP-INT-BAC-2021-47,yes,592/2021/BTB,Subject/scope and timing identify this page among reused exact PA references.
+RFP/BE/2024/07,no,,Transformed candidate does not safely identify the intended tender.
+RFP/EDM/2022/01,yes,338/2022/BTB,Subject/scope and timing identify this page among reused exact PA references.
+RFP/GFG/2025/02,no,,"Reference candidate exists, but checkpoint has no usable Tier 2 metadata/source."
+RFP/GSA/04/2025,no,,"Reference candidate exists, but checkpoint has no usable Tier 2 metadata/source."
+RFP/MOIC/2024/01,no,,"Reference candidate exists, but checkpoint has no usable Tier 2 metadata/source."
+RFP/SCE/ARAD BAY/2024/01,no,,Transformed candidate does not safely identify the intended tender.
+S 3/2021,yes,823/2022/BTB,Subject/scope and timing identify the matching reissued Tender Board page.
+S/23/2024,yes,897/2024/BTB,Subject/scope and timing identify the matching reissued Tender Board page.
+S/31/2020,no,,Transformed candidate is unsafe or inconsistent with the award occurrence.
+S/69/2023,yes,158/2025/BTB,Subject/scope and timing identify the matching reissued Tender Board page.
+SCE/2024/01,no,,Transformed candidate is unsafe or inconsistent with the award occurrence.
+SCIA/03-2022,yes,755/2022/BTB,Subject/scope and timing identify the matching reissued Tender Board page.
+SES-20/0004,yes,523/2025/BTB,Subject/scope and timing identify the matching reissued Tender Board page.
+SES-20/0019,yes,195/2023/BTB,Subject/scope and timing identify this page among reused exact PA references.
+SES-20/0034,yes,814/2021/BTB,Subject/scope and timing identify the matching reissued Tender Board page.
+SES-20/0035,yes,194/2023/BTB,Subject/scope and timing identify the matching reissued Tender Board page.
+SES-22/0001,yes,514/2024/BTB,Subject/scope and timing identify the matching reissued Tender Board page.
+SES-22/0021,yes,840/2023/BTB,Subject/scope and timing identify the matching reissued Tender Board page.
+SES-23/0046,yes,1000/2024/BTB,Subject/scope and timing identify the matching reissued Tender Board page.
+SES-24/0004,yes,778/2024/BTB,Subject/scope and timing identify the matching reissued Tender Board page.
+SPD-22/0001,yes,8/2023/BTB,Subject/scope and timing identify this page among reused exact PA references.
+SPO/255/2022,yes,786/2023/BTB,Subject/scope and timing identify the matching reissued Tender Board page.
+TRA/RFP/2023/003,yes,143/2024/BTB,Subject/scope and timing identify the matching reissued Tender Board page.
+UOBQ/8/2021,yes,769/2021/BTB,Subject/scope and timing identify the matching reissued Tender Board page.
+UPDA/2022/16,yes,137/2023/BTB,Subject/scope and timing identify this page among reused exact PA references.
+iGA/2021/07,yes,291/2022/BTB,Same reviewed reference with different capitalization.
+IT-USCMS-21-02,yes,650/2022/BTB,"Reviewed using subject, scope and tender timing."
+TP-1016-2023,yes,388/2023/BTB,"Reviewed using subject, scope and tender timing."
+TP-1075-2023,yes,42/2024/BTB,"Reviewed using subject, scope and tender timing."
+TP-1086-2023,yes,440/2024/BTB,"Reviewed using subject, scope and tender timing."
+TP-1129-2023,yes,994/2023/BTB,"Reviewed using subject, scope and tender timing."
+TP-1138-2023,yes,383/2024/BTB,"Reviewed using subject, scope and tender timing."
+TP-723-2021,yes,268/2022/BTB,"Reviewed using subject, scope and tender timing."
+TP-725-2021,yes,250/2022/BTB,"Reviewed using subject, scope and tender timing."
+TP-790-2021,yes,441/2021/BTB,"Reviewed using subject, scope and tender timing."
+TP-811-2021,yes,34/2022/BTB,"Reviewed using subject, scope and tender timing."
+TP-818-2021,yes,15/2022/BTB,"Reviewed using subject, scope and tender timing."
+TPC-2036-2024,yes,105/2024/TWR,"Reviewed using subject, scope and tender timing."
+03/2022,no,,Generic reference matched the wrong tender description.
+2022/03,no,,Generic reference matched the wrong tender description.
+LF-197,no,,Archive page describes laptop procurement while the award is for audit services.

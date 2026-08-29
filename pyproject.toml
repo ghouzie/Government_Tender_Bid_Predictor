@@ -1,0 +1,13 @@
+[project]
+name = "government-tender-bid-predictor"
+version = "1.0.0"
+requires-python = ">=3.11"
+
+dependencies = [
+    "joblib",
+    "lightgbm",
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "streamlit",
+]

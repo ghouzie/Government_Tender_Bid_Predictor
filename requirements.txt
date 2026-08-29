@@ -1,3 +1,6 @@
-streamlit
-pandas
-scikit-learn
+joblib>=1.4
+lightgbm>=4.0
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.5
+streamlit>=1.37

@@ -1,0 +1,12 @@
+{
+  "training_rows_2021_2023": 1043,
+  "validation_rows_2024": 477,
+  "test_rows_2025": 373,
+  "production_training_rows_2021_2024": 1520,
+  "range_factor_80_percent": 1.7623944395671431,
+  "range_coverage_2025": 0.8123324396782842,
+  "median_percentage_error": 0.2509092643962326,
+  "rmsle": 0.6272843166919515,
+  "within_2x": 0.8659517426273459,
+  "within_1_5x": 0.6836461126005362
+}

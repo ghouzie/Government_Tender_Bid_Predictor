@@ -2,6 +2,8 @@
 
 A machine-learning capstone project that estimates the winning price of Bahrain government tenders using information available before bidding.
 
+https://governmenttenderbidpredictor.streamlit.app/
+
 ## What the project does
 
 The user enters information such as:

@@ -271,7 +271,7 @@ def new_tender_mode(
     history_price = similar_price(
         history_matches
     )
-
+    today = datetime.now()
     row = pd.DataFrame([{
         "entity": entity,
         "sector": sector,

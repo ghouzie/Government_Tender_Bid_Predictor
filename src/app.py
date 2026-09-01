@@ -54,8 +54,6 @@ def historical_ridge(
     sector,
     subject,
 ):
-    today = datetime.now()
-
     row = pd.DataFrame([{
         "entity": entity,
         "sector": sector,
@@ -110,15 +108,32 @@ def show_prediction(
     )
 
 
-def show_similar(matches, number=3):
-    st.subheader("Similar historical tenders")
+def show_similar(matches, number=3, key="similar"):
+    matches = matches.head(number).reset_index(drop=True)
 
-    st.caption(
-        "These are shown as context. "
-        "They are not copied as the model prediction."
-    )
+    if matches.empty:
+        st.info("No similar historical tenders were found.")
+        return
 
-    for _, row in matches.head(number).iterrows():
+    with st.expander(
+        f"View {len(matches)} similar historical tenders"
+    ):
+        st.caption(
+            "These are shown as context. Their awards "
+            "are not copied as the model prediction."
+        )
+
+        selected = st.selectbox(
+            "Historical tender",
+            options=list(range(len(matches))),
+            format_func=lambda index: (
+                matches.iloc[index]["subject"][:90]
+            ),
+            key=key,
+        )
+
+        row = matches.iloc[selected]
+
         st.markdown(
             f"**{row['subject']}**  \n"
             f"{row['entity']} · {row['report_period']}  \n"
@@ -129,9 +144,6 @@ def show_similar(matches, number=3):
             f"**{row['match_score'] * 100:.0f}%**"
         )
 
-        st.divider()
-
-
 def new_tender_mode(
     final_model,
     history_model,
@@ -139,6 +151,11 @@ def new_tender_mode(
     history,
 ):
     st.subheader("New tender")
+
+    st.caption(
+        "Tender subject is required. Complete the optional "
+        "fields when the information is available."
+    )
 
     entity = st.text_input(
         "Issuing authority"
@@ -257,6 +274,7 @@ def new_tender_mode(
         show_similar(
             display_matches,
             number=3,
+            key="new_tender_low_quality_match",
         )
 
         return
@@ -344,6 +362,7 @@ def new_tender_mode(
     show_similar(
         display_matches,
         number=3,
+        key="new_tender_match",
     )
 
 
@@ -459,6 +478,7 @@ def historical_mode(
     show_similar(
         matches,
         number=3,
+        key="historical_validation_match",
     )
 
     if st.button(
